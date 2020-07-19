@@ -148,7 +148,7 @@ def build_dfa(pattern: str) -> DfaNode:
                 next_node=result,
             )
         else:
-            return result
+            reversed_remaining = tail
     return result
 
 
